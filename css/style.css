@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src:url('../fonts/coolvetica\ rg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-light';
+    src:url('../fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-regular';
+    src:url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-semibold';
+    src:url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src:url('../fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+body{
+    color: #111111;
+}
+
+header .bg-light{
+	background-color: #F4F4F4 !important;
+    font-family: 'Montserrat-regular';
+}
+
+header .navbar-brand{
+    align-content: center;
+    justify-content: center;
+}
+
+header .bg-light a{
+    color: #111111;
+}
+
+header .bg-light a:hover{
+    color: #FA4D40;
+}
+
+#about-me{
+    background-color: #F4F4F4 !important;
+}
+
+#about-me img{
+    margin-left: 10%;
+}
+
+#about-me p{
+    font-family: 'Montserrat-light';
+    text-align: justify;
+}
+
+#about-me p span{
+    font-family: 'Montserrat-regular';
+    color: #FA4D40;
+    font-size: 15px;
+}
+
+#about-me h2{
+    margin-top: 30%;
+    font-family: 'Coolvetica';
+    font-size: 75px;
+}
+
+#about-me .btn-start{
+    background-color:#FA4D40;
+    color: #fff;
+    margin: 20px 0;
+    padding: 7px 20px;
+    font-family: 'Montserrat-regular';
+    border-radius: 50px; 
+}
+
+#about-me .btn-start:hover{
+    background-color: #111111;
+    color: #F8F8F8;
+}
+
+#about-me .btn-white{
+    background-color: #F8F8F8;
+    color: #111111;
+    margin: 20px 0;
+    padding: 7px 20px;
+    font-family: 'Montserrat-medium';
+    border-radius: 50px;
+    border-color: #111111; 
+}
+
+#about-me .btn-white:hover{
+    background-color: #111111;
+    color: #F8F8F8;
+}
+
+#about-me h6{
+    font-family: 'Montserrat-semibold';
+    font-size: 17px;
+    color: #FA4D40;
+    margin-top: 10%;
+}
+
+#about-me i{
+    font-size: 20px;
+	background-color: #111111;
+	color: #F8F8F8;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 100%;
+	margin-top: 10%;
+	margin-bottom: 5px;
+}
+
+#about-me i:hover{
+    background-color: #FA4D40;
+    color: #F8F8F8;
+}
+
+#about-me hr{
+    margin-top: 10%;
+}
+
+#servicios{
+    background-color: #111111;
+    padding: 80px 0;
+}
+
+#servicios h2{
+    font-family: 'Coolvetica';
+    color: #F8F8F8;
+    padding: 10px 0;
+    text-align: left;
+    font-size: 50px;
+}
+
+#servicios h3{
+    font-family: 'Coolvetica';
+    color: #FFC635;
+    text-align: left;
+    font-size: 50px;
+}
+
+.card{
+    box-shadow: 0px 0px 5px 1px #f8f8f885;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+
+.capa-hover{
+    position: absolute;
+    background-color: rgba(30, 29, 29, 0.468);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+    display: grid;
+    align-content: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.capa-hover h4{
+    font-size: 30px;
+    font-family: 'Montserrat-bold';
+}
+
+.capa-hover p{
+    font-size: 17px;
+    font-family: 'Montserrat-regular';
+}
+
+.capa-hover:hover{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#frase-proyectos{
+    background-color: #F8F8F8;
+    padding: 30px 0;
+}
+
+.frase-proyectos h2{
+    font-family: 'Coolvetica';
+    color: #111111;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.frase-proyectos h3{
+    font-family: 'Coolvetica';
+    color: #0072A8;
+    text-align: center;
+    font-size: 50px;
+}
+
+#contact{
+    background-color: #DBF381;
+    padding: 50px 0;
+}
+
+#contact h2{
+    font-family: 'Coolvetica';
+    font-size: 45px;
+    color:#111111;
+}
+
+#contact p{
+    font-family: 'Montserrat-regular';
+}
+
+#contact p span{
+    font-family: 'Montserrat-light';
+    font-size: 15px;
+}
+
+#contact .btn-white{
+    background-color: #F8F8F8;
+    color: #111111;
+    margin: 20px 0;
+    padding: 7px 20px;
+    font-family: 'Montserrat-medium';
+    border-radius: 50px;
+    border-color: #111111; 
+}
+
+#contact .btn-white:hover{
+    background-color: #111111;
+    color: #F8F8F8;
+}
+
+#contact hr{
+    margin-top: 7%;
+}
+
+#contact h4{
+    font-family: 'Montserrat-semibold';
+    font-size: 18px;
+}
+
+#contact i{
+    font-size: 20px;
+	background-color: #111111;
+	color: #F8F8F8;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 100%;
+	margin: 5px 0;
+}
+
+#contact i:hover{
+    background-color: #F8F8F8;
+    color: #111111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
